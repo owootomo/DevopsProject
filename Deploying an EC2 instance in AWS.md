@@ -60,6 +60,35 @@ The newly created user will then be visible under the user section in our accoun
 # Step 3, I will launch an EC2 instance in AWS. 
 From my AWS Management Console, I will type in "EC2" in the search bar to access the EC2 dashboard. Next, I will click the orange "Launch Instance" button to initiate the launch process.
 
+On the "Launch An Instance" interface, designate a name (Feel free to choose any name; I'll use 'nayawebserver' as an example) for your virtual web server and choose an Amazon Machine Image (AMI) with a t2.micro Instance Type. For this task, we'll opt for the Amazon Linux AMI to accomplish our objectives.
+
+<img width="675" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/b5e0ec91-a895-4d57-9041-4cf077849ad5">
+
+<img width="581" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/6031bc7d-166b-4fb6-a821-0d826a787c4b">
+
+After choosing the instance type, it is necessary to generate a new key pair, enabling us to establish a secure connection to our instance.
+
+<img width="576" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/de85eebb-3bf9-4aa2-b7bf-f55982b508c4">
+
+Click the Create a new key pair button
+
+I already created a Key Paid so when I drop down, it shows my current KeyPair as seen below
+<img width="586" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/0a81f58f-dd5d-4a1c-b083-5d4e937da307">
+
+Next, it's essential to configure the appropriate firewall settings. In line with the mission requirements, we are tasked with establishing a security group permitting inbound traffic on HTTP for 0.0.0.0/0 and inbound traffic on SSH specifically from your IP address. To achieve this, we will set up our configurations as outlined below.
+
+<img width="583" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/f2f9623e-0311-4030-ade1-dda2b2cdeb4f">
+
+Once we have our settings in place, we can click Launch Instance to get it up and running.
+
+<img width="286" alt="image" src="https://github.com/owootomo/Devops-Project/assets/144632027/ef5e401f-82bb-495d-bdb9-02e310ad3be2">
+
+
+
+
+
+
+
 
 
 
