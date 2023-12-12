@@ -1,5 +1,5 @@
 ## Step 1 – Setting Up the NGINX Web Server
-To deliver web content to our visitors, I will leverage NGINX, a high-performance web server. Let's kick off by using the apt package manager for installation.  Then, install Nginx using the following commands:
+To deliver web content to visitors, I will leverage NGINX, a high-performance web server. Let's kick off by using the apt package manager for installation.  Then, install Nginx using the following commands:
 
 ```
 sudo apt update
